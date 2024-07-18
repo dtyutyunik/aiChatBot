@@ -116,3 +116,17 @@ app.post("/api/chatBot", async (req, res) => {
 
 const PORT = process.env.PORT || 500;
 app.listen(PORT, () => console.log(`Server started on port ${PORT}`));
+```
+
+## Sample Chats
+![Einstein](./Einstein.png)
+![Steve Jobs](./Steve_Jobs.png)
+
+## Contributing
+Contributions are welcome! Please open an issue or submit a pull request for any changes or enhancements.
+
+## License
+This project is licensed under the MIT License.
+
+## Acknowledgements
+OpenAI for their powerful GPT-3.5-turbo model.
